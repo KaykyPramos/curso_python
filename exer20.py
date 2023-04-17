@@ -1,22 +1,26 @@
 import os
 perguntas = [
     {
-        'Pergunta': 'Quanto é 2+2?',
-        'Opções': ['1', '3', '4', '5'],
-        'Resposta': '4',
+        'Pergunta': 'Quanto é 43+5?',
+        'Opções': ['50', '43', '48', '46'],
+        'Resposta': '48',
     },{
-        'Pergunta': 'Quanto é 5*5?',
-        'Opções': ['25', '55', '10', '51'],
-        'Resposta': '25',
+        'Pergunta': 'Quanto é 25*4?',
+        'Opções': ['125', '100', '115', '150'],
+        'Resposta': '100',
     },{
-        'Pergunta': 'Quanto é 10/2?',
-        'Opções': ['4', '5', '2', '1'],
-        'Resposta': '5',
+        'Pergunta': 'Quanto é 100/2?',
+        'Opções': ['40', '50', '20', '10'],
+        'Resposta': '50',
     },{
-        'Pergunta': 'Quanto é 9-3?',
-        'Opções': ['3', '9', '-6', '6'],
-        'Resposta': '6',
-    },]
+        'Pergunta': 'Quanto é 16-9?',
+        'Opções': ['7', '9', '8', '6'],
+        'Resposta': '7',
+    },{
+        'Pergunta': 'Quanto é 10*5?',
+        'Opções': ['20', '50', '40', '30'],
+        'Resposta': '50',
+    }]
 acertos = 0
 def perguntar(i,acertos):
     print('Pergunta:',perguntas[i]["Pergunta"])
