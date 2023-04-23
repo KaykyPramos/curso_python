@@ -15,7 +15,7 @@ produtos = [
     {'nome' : 'coca cola' , 'preco' : 20,}
     ]
 # oque esta a esquerda do for é mapeamento(colocar um dado de outra lista em uma lista nova) 
-# oque esta a direita do for é um filtro so acresenta na lista nova se a condição for verdadeira
+# oque esta a direita do for é um filtro so acrescenta na lista nova se a condição for verdadeira
 produtos_corre = [
     {**produto, 'preco' : produto['preco'] * 1.05}
     if produto['preco'] > 20 else {**produto}
